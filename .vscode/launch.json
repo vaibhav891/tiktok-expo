@@ -1,0 +1,39 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Expo: Open in iOS Simulator",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npx expo start --ios"
+    },
+    {
+      "name": "Expo: Open in Android Emulator",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npx expo start --android"
+    },
+    {
+      "name": "Expo: Open in Web Browser",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npx expo start --web"
+    },
+    {
+      "name": "Expo: Start Packager (Interactive)",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npx expo start"
+    },
+    {
+      "name": "Attach to Expo / Hermes (Port 8081)",
+      "type": "node",
+      "request": "attach",
+      "port": 8081,
+      "address": "localhost",
+      "restart": true,
+      "sourceMaps": true,
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
